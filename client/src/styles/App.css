@@ -1,0 +1,30 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark {
+  @apply bg-gray-900 text-white;
+}
+
+/* Add custom styles for DatePicker in dark mode */
+.dark .react-datepicker {
+  @apply bg-gray-800 border-gray-700;
+}
+
+.dark .react-datepicker__header {
+  @apply bg-gray-700 border-gray-600;
+}
+
+.dark .react-datepicker__day {
+  @apply text-white hover:bg-gray-600;
+} 
+
+.dark .react-datepicker__day-name {
+  @apply text-gray-300;
+}
+
+.dark .react-datepicker__current-month {
+  @apply text-white;
+}
+
